@@ -1,5 +1,12 @@
 //DOM DOCUMENT OBJECT MODEL
 
+// let word = document.getElementById('para');
+// word.innerHTML = "KESY HO";
+// word.style.backgroundColor = "cyan";
+// // word.id = "world";
+// // word.classList.add("HELLO");
+// console.log(word);
+
 let elem = document.getElementById('second');
 // console.log(elem);
 // elem.innerHTML = "An Apple a day keeps the doc away";
