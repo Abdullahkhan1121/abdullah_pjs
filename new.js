@@ -80,3 +80,17 @@ let promiseFive = new Promise(function(resolve , reject){
     }
  }
  consumedPromiseFive()
+
+
+ // API WITH ASYNC
+async function getAllUsers(){
+    try{
+        let response = await fetch('https://jsonplaceholder.typicode.com/users');
+        let data  = await response.json();
+        document.write(JSON.stringify(data))
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+getAllUsers()
